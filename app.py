@@ -208,7 +208,7 @@ def vc_single(
         return info, (None, None)
 
 
-app = gr.Blocks()
+app = gr.Blocks(theme='Hev832/EasyAndCool')
 with app:
     with gr.Tabs():
         with gr.TabItem("在线demo"):
@@ -319,4 +319,4 @@ with app:
             )
 
 
-app.launch()
+app.launch(share=True)
